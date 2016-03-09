@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=AudioRecorder
+Exec=qmlscene $@ AudioRecorder/Main.qml
+Icon=AudioRecorder/AudioRecorder.png
+Terminal=false
+Type=Application
+X-Ubuntu-Touch=true
+

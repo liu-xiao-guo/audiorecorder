@@ -1,0 +1,17 @@
+{
+    "name": "audiorecorder.liu-xiao-guo",
+    "description": "description of audiorecorder",
+    "architecture": "@CLICK_ARCH@",
+    "title": "audiorecorder",
+    "hooks": {
+        "AudioRecorder": {
+            "apparmor": "AudioRecorder/AudioRecorder.apparmor",
+            "desktop":  "AudioRecorder/AudioRecorder.desktop"
+        }
+    },
+    "version": "0.1",
+    "maintainer": "XiaoGuo, Liu <xiaoguo.liu@canonical.com>",
+    "framework" : "ubuntu-sdk-15.04"
+}
+
+
